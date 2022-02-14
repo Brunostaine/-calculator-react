@@ -2,8 +2,52 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 600px;
-    background-color: gray;
+    flex-wrap: wrap;
+
+    width: 200px;
+    height: 100%;
+    
+    background-color: rgb(19, 17, 17);
     margin: 10px auto;
+    border-radius: 1em;
+}
+
+button {
+    width: 3em;
+    height: 3em;
+    font-size: 1.5;
+    border: none;
+    border-radius: 2em;
+    margin: .3em
+}
+
+.numbers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: auto;
+    
+}
+
+.result{
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.orange {
+    background-color: #ff9500;
+    color: #fff;
+}
+
+.gray {
+    background-color: #505050;
+    color: #fff;
+}
+
+.zero {
+    grid-column-start: span 2;
 }
 
