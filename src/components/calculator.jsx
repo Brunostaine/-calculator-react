@@ -79,7 +79,6 @@ export default function Calculator() {
                 <button className='orange' onClick={operadorHandle} value={'+'}>+</button>
                 <button className='gray zero' onClick={inputNum} value={0}>0</button>
                 <button className='gray' onClick={inputNum} value={'.'}>,</button>
-                
                 <button className='orange' onClick={calculate}>=</button>
             </div>
             
