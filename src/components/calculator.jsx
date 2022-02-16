@@ -62,7 +62,7 @@ export default function Calculator() {
             </div>
             <div className='numbers'>
                 <button onClick={clear}>AC</button>
-                <button onClick={operadorHandle}>+/-</button>
+                <button onClick={changeSign}>+/-</button>
                 <button onClick={porcentagem}>%</button>
                 <button className='orange' onClick={operadorHandle} value={'/'}>/</button>
                 <button className='gray' onClick={inputNum} value={7}>7</button>
