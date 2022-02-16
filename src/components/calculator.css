@@ -20,7 +20,6 @@ button {
     border-radius: 2em;
     margin: .3em
 }
-
 .numbers {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -28,7 +27,6 @@ button {
     gap: auto;
     
 }
-
 .result{
     color: #fff;
     width: 100%;
@@ -38,7 +36,6 @@ button {
     margin-left: 14px;  
     overflow: hidden;
 }
-
 .orange {
     background-color: #ff9500;
     color: #fff;
