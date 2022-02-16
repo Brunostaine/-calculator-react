@@ -59,7 +59,6 @@ export default function Calculator() {
         <div className='container'>
             <div className='result'>
                 <h1>{num}</h1>
-                {/* <h1>{num}</h1> */}
             </div>
             <div className='numbers'>
                 <button onClick={clear}>AC</button>
